@@ -7,7 +7,7 @@ A simple WordPress theme basd on [Thematic](http://themeshaper.com/thematic/). V
 3. Activate sonus in the Themes setting of WordPress. Disable all the widgets in sonus themes setting except for Categories and Search and put Categories above Search.
 
 
-Good luck!<br/>
+Good luck. <br/>
 --<br/>
 [David Wong](http://huangdawei.im)<br/>
 david@huangdawei.im
