@@ -24,82 +24,96 @@ Layout: one column with sidebar on right.
 -------------------------------------- */
 
 body {
-    min-width:830px;
+  min-width: 830px;
 }
+
 #header {
-    position:relative;
+  position: relative;
 }
+
 #branding {
-    width:830px;
-    margin:0 auto;
+  width: 830px;
+  margin: 0 auto;
 }
+
 #access {
-    position:relative;
-    overflow:hidden;
+  position: relative;
+  overflow: hidden;
 }
+
 .menu {
-    width:830px;
-    margin:0 auto;
+  width: 830px;
+  margin: 0 auto;
 }
+
 #main {
-    width:830px;
-    margin:0 auto;
-    overflow:hidden;
-    position:relative;
+  width: 830px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
+
 #container {
-    width:620px;
-    float:left;
+  width: 620px;
+  float: left;
 }
+
 #content {
-    margin:0 0 0 10px;
-    width:600px;
-    overflow:hidden;
+  margin: 0 0 0 10px;
+  width: 600px;
+  overflow: hidden;
 }
+
 .main-aside {
-    width:180px;
-    float:right;
-    position:relative;
-    right:10px;
+  width: 180px;
+  float: right;
+  position: relative;
+  right: 10px;
 }
+
 #secondary {
-    clear:right;
+  clear: right;
 }
+
 #footer {    
-    clear:both;
+  clear: both;
 }
+
 #subsidiary {
-    width:830px;
-    margin:0 auto;
-    overflow:hidden;
+  width: 830px;
+  margin: 0 auto;
+  overflow: hidden;
 }
+
 #subsidiary .aside {
-    width:200px;
-    float:left;
-    margin:0 20px 0 0;
+  width: 200px;
+  float: left;
+  margin: 0 20px 0 0;
 }
+
 #subsidiary #third {
-    margin:0;
+  margin: 0;
 }
+
 #siteinfo {
-    clear:both;
-    width:830px;
-    margin:0 auto;
+  clear: both;
+  width: 830px;
+  margin: 0 auto;
 }
 
 /* =Page Templates */
 .page-template-template-page-fullwidth-php #container {
-	margin:0;
-	width:940px;
+  margin: 0;
+  width: 940px;
 }
 
 .page-template-template-page-fullwidth-php #content {
-	margin: 0 0 0 10px;
-	width:940px;
+  margin: 0 0 0 10px;
+  width: 940px;
 }
 
 .page-template-template-page-fullwidth-php #comments {
-    width:540px;
+  width: 540px;
 }
 
 
@@ -110,54 +124,60 @@ body {
 /* =Ajax Edit Comments
 ------------------------------------ */
 .edit-comment {
-    margin-bottom:18px;
+  margin-bottom: 18px;
 }
 
 /* =PageNavi
 ------------------------------------ */
-/* Make sure to uncheck 'Use pagenavi-css.css' in the page-navi styles */
 
 .wp-pagenavi {
-    padding:0.5em 0;    
+  padding: 0.5em 0;    
 }
+
 .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi span {
-    border:1px solid #ccc;
-    color:#666;
-    font-style:normal;
-    margin:0 .375em;
-    padding:0.5em 0.5em;
+  border: 1px solid #ccc;
+  color: #666;
+  font-style: normal;
+  margin: 0 .375em;
+  padding: 0.5em 0.5em;
 }
+
 .wp-pagenavi a:visited {
-    border:1px solid #ccc;
-    color:#666;
+  border: 1px solid #ccc;
+  color: #666;
 }
+
 .wp-pagenavi a:hover {
-    border:1px solid #ccc;
-    color:#FF4B33;
+  border: 1px solid #ccc;
+  color: #FF4B33;
 }
+
 .wp-pagenavi a:active {
-    border:1px solid #ccc;
-    color:#FF4B33;
+  border: 1px solid #ccc;
+  color: #FF4B33;
 }
+
 .wp-pagenavi span.pages {
-    border:none;
-    color:#666;
-    margin:0;
-    padding:0;
+  border: none;
+  color: #666;
+  margin: 0;
+  padding: 0;
 }
+
 .wp-pagenavi span.current {
-    color:#000;
+  color: #000;
 }
+
 .wp-pagenavi span.extend {
-    color:#000;
+  color: #000;
 }
 
 /* =WordPress Stats
 ------------------------------------- */
 img#wpstats {   /* hide WordPress Stats smiley */
-    width:0px;
-    height:0px;
-    overflow:hidden;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
 }
 
 
@@ -165,94 +185,109 @@ img#wpstats {   /* hide WordPress Stats smiley */
    Default styles for Images
 ------------------------------------- */   
 .entry-content .wp-post-image {
-	border: 1px solid #ccc;
-	float:right;
-	margin: 0 0 20px 18px;
-	padding: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  margin: 0 0 20px 18px;
+  padding: 5px;
 }
+
 .entry-content img {
-    height:auto;
-    margin: 0 0 18px 0;
-    padding: 4px;
-    max-width: 590px;
-    border: 1px solid #E0EAE9;
+  height: auto;
+  margin: 0 0 18px 0;
+  padding: 4px;
+  max-width: 590px;
+  border: 1px solid #E0EAE9;
 }
 
 .alignleft,
 img.alignleft {
-	float: left;
+  float: left;
 }
+
 .alignright,
 img.alignright {
-	display: block;
-	float: right;
-    margin-left:20px;
+  display: block;
+  float: right;
+  margin-left: 20px;
 }
+
 .aligncenter,
 img.aligncenter {
-	margin-left:auto;
-	margin-right:auto;
-	display: block;
-	clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
 }
+
 .wp-caption {
-	border:1px solid #ccc;
-	text-align: center;
-	margin-bottom:18px;
-	max-width: 98%;
-	padding:5px 5px 0;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-bottom: 18px;
+  max-width: 98%;
+  padding: 5px 5px 0;
 }
+
 .wp-caption img {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 .wp-caption p.wp-caption-text {
-	margin: 0;
-	padding:18px 5px;
+  margin: 0;
+  padding: 18px 5px;
 }
+
 .gallery {
-	display: block;
-	clear: both;
-	overflow: hidden;
-	margin: 0 auto;
-    padding:0 0 22px 0;
-	}
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 22px 0;
+}
+	
 .gallery-row {
-	display: block;
-	clear: both;
-	overflow: hidden;
-	margin: 0;
-	}
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin: 0;
+}
+	
 .gallery-item {
-	overflow: hidden;
-	float: left;
-	margin: 0;
-	text-align: center;
-	list-style: none;
-	}
+  overflow: hidden;
+  float: left;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
 .gallery-icon {
-	margin: 0 5px;
+  margin: 0 5px;
 }
+
 #content .gallery img {
-    border: 1px solid #ccc;
-	margin:0;
-	padding: 6px;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 6px;
 }
+
 .gallery-item img, .gallery-item img.thumbnail {
-	margin: 0 auto;
-	}
-.gallery-caption {
-	padding:6px 6px 0;
+  margin: 0 auto;
 }
+	
+.gallery-caption {
+  padding: 6px 6px 0;
+}
+
 .wp-caption-text,
 .gallery-caption {
-    color:#666;
-    font-size:13px;
-    line-height:18px;
+  color: #666;
+  font-size: 13px;
+  line-height: 18px;
 }
+
 .wp-smiley { /* Prevent the smileys from breaking line-height */
-	max-height:12px;
-	margin:0 !important;
+  max-height: 12px;
+  margin: 0 !important;
 }
 
 /* -------------------------------------------
